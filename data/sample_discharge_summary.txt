@@ -1,0 +1,215 @@
+DISCHARGE SUMMARY — SYNTHETIC PATIENT (DEMO ONLY)
+
+Patient: John D. [Synthetic - Not Real]
+DOB: 03/15/1965  |  Age: 58  |  Gender: Male
+MRN: DEMO-001  |  Visit: 2024-01-15 to 2024-01-19
+Attending: Dr. Smith [Fictional]
+
+══════════════════════════════════════════════════════════════
+CHIEF COMPLAINT:
+Acute chest pain with radiation to left arm, shortness of breath.
+
+══════════════════════════════════════════════════════════════
+HISTORY OF PRESENT ILLNESS:
+58-year-old male with past medical history of type 2 diabetes mellitus,
+hypertension, and hyperlipidemia presented to the emergency department via
+ambulance with a 2-hour history of severe substernal chest pain radiating to
+the left arm and jaw, associated with diaphoresis and shortness of breath.
+Patient denies recent upper respiratory infection, fever, or recent travel.
+He reports compliance with his home medications.
+
+══════════════════════════════════════════════════════════════
+PAST MEDICAL HISTORY:
+1. Type 2 diabetes mellitus — diagnosed 2015, HbA1c 9.2% (poorly controlled)
+2. Hypertension — on Lisinopril
+3. Hyperlipidemia — on Atorvastatin
+4. Obstructive sleep apnea — on CPAP therapy
+
+PAST SURGICAL HISTORY:
+- Appendectomy 2001
+- Right knee arthroscopy 2018
+
+FAMILY HISTORY:
+Father: coronary artery disease, myocardial infarction at age 62.
+Mother: type 2 diabetes mellitus, hypertension.
+Brother: alive and well.
+
+SOCIAL HISTORY:
+- Tobacco: Former smoker, quit 5 years ago (15 pack-year history)
+- Alcohol: Occasional, 1-2 drinks per week
+- Illicit drugs: Denies
+- Occupation: Accountant, sedentary lifestyle
+
+══════════════════════════════════════════════════════════════
+MEDICATIONS ON ADMISSION:
+1. Metformin 500 mg by mouth twice daily
+2. Lisinopril 10 mg by mouth once daily
+3. Atorvastatin 40 mg by mouth at bedtime
+4. Aspirin 81 mg by mouth once daily
+5. CPAP therapy nightly at 8 cmH2O
+
+ALLERGIES:
+- Penicillin (rash, hives)
+- Sulfonamides (angioedema)
+
+══════════════════════════════════════════════════════════════
+REVIEW OF SYSTEMS:
+POSITIVE: chest pain, shortness of breath, diaphoresis, nausea
+NEGATIVE: vomiting, diarrhea, fever, chills, cough, headache, dizziness,
+          vision changes, abdominal pain, leg swelling, palpitations before event
+
+══════════════════════════════════════════════════════════════
+PHYSICAL EXAMINATION:
+
+Vital Signs:
+  Blood pressure: 145/92 mmHg
+  Heart rate: 102 bpm
+  Respiratory rate: 18 rpm
+  Temperature: 98.6°F
+  Oxygen saturation: 96% on room air
+  BMI: 31.2 kg/m²
+  Weight: 94 kg
+
+General: Diaphoretic male in moderate distress, clutching chest.
+HEENT: Normocephalic, atraumatic. Pupils equal, round, reactive to light.
+Neck: No jugular venous distension. No carotid bruits.
+Cardiovascular: Regular rate and rhythm. No murmurs, rubs, or gallops.
+Respiratory: Clear to auscultation bilaterally. No wheezing or crackles.
+Abdomen: Soft, non-tender, non-distended. Bowel sounds present.
+Extremities: No peripheral edema. Pulses 2+ bilaterally.
+Neurological: Alert and oriented times three. No focal deficits.
+
+══════════════════════════════════════════════════════════════
+LABORATORY RESULTS:
+
+Complete Blood Count:
+  WBC: 11.2 K/uL (elevated)
+  Hemoglobin: 13.8 g/dL
+  Hematocrit: 41%
+  Platelets: 224 K/uL
+
+Comprehensive Metabolic Panel:
+  Sodium: 138 mEq/L
+  Potassium: 4.1 mEq/L
+  Chloride: 101 mEq/L
+  Creatinine: 1.1 mg/dL
+  BUN: 18 mg/dL
+  Glucose: 248 mg/dL (elevated)
+  ALT: 32 U/L
+  AST: 28 U/L
+
+Cardiac Markers:
+  Troponin I: 2.4 ng/mL (CRITICALLY HIGH — normal < 0.04)
+  CK-MB: 18.6 ng/mL (elevated)
+  BNP: 145 pg/mL (mildly elevated)
+
+Lipid Panel:
+  LDL: 142 mg/dL (elevated)
+  HDL: 38 mg/dL (low)
+  Triglycerides: 218 mg/dL (elevated)
+  Total Cholesterol: 224 mg/dL
+
+Other:
+  HbA1c: 9.2% (poorly controlled)
+  INR: 1.0
+  CRP: 12.4 mg/L (elevated)
+
+══════════════════════════════════════════════════════════════
+IMAGING & PROCEDURES:
+
+Electrocardiogram (on arrival):
+  ST elevation in leads II, III, and aVF — consistent with inferior STEMI.
+  Reciprocal ST depression in leads I and aVL.
+  Heart rate 102 bpm, normal sinus rhythm.
+
+Chest X-ray:
+  No acute cardiopulmonary disease. Normal cardiac silhouette.
+  No pneumothorax or pleural effusion.
+
+Echocardiogram (bedside):
+  Left ventricular ejection fraction (LVEF) 45% (mildly reduced).
+  Inferior wall hypokinesis.
+  No pericardial effusion.
+
+Coronary Angiography:
+  Right coronary artery (RCA): 95% occlusion at mid-segment.
+  Left anterior descending (LAD): 40% stenosis.
+  Left circumflex: No significant lesion.
+
+Percutaneous Coronary Intervention (PCI):
+  Drug-eluting stent placed in RCA with TIMI 3 flow restored.
+  Procedure performed without complications.
+
+══════════════════════════════════════════════════════════════
+ASSESSMENT AND PLAN:
+
+1. INFERIOR ST-ELEVATION MYOCARDIAL INFARCTION (STEMI)
+   ICD-10: I21.19
+   - Successful PCI with drug-eluting stent to RCA
+   - Dual antiplatelet therapy: Aspirin 325 mg daily + Clopidogrel 75 mg daily
+   - High-intensity statin: Atorvastatin increased to 80 mg daily
+   - Beta-blocker: Metoprolol Succinate 50 mg daily
+   - ACE inhibitor: Lisinopril 10 mg daily (continued)
+   - Cardiac rehabilitation referral placed
+   - Follow up with cardiology in 1 week
+
+2. TYPE 2 DIABETES MELLITUS — POORLY CONTROLLED
+   ICD-10: E11.65
+   - Held Metformin during hospitalization (contrast exposure, renal precaution)
+   - Insulin sliding scale during inpatient stay
+   - Resume Metformin 500 mg twice daily at discharge
+   - Add Empagliflozin 10 mg daily (cardioprotective benefit post-MI)
+   - HbA1c target < 7.0%. Endocrinology follow up in 2 weeks.
+
+3. HYPERTENSION
+   ICD-10: I10
+   - Target blood pressure < 130/80 mmHg
+   - Continue Lisinopril 10 mg daily
+   - Monitor blood pressure closely post-MI
+
+4. HYPERLIPIDEMIA
+   ICD-10: E78.5
+   - LDL target < 70 mg/dL (high-risk post-MI)
+   - Atorvastatin increased to 80 mg daily
+   - Repeat lipid panel in 6 weeks
+
+5. OBSTRUCTIVE SLEEP APNEA
+   ICD-10: G47.33
+   - Continue CPAP at 8 cmH2O nightly
+   - Sleep study follow-up with pulmonology
+
+══════════════════════════════════════════════════════════════
+DISCHARGE MEDICATIONS:
+1. Aspirin 325 mg by mouth once daily
+2. Clopidogrel 75 mg by mouth once daily (do NOT stop without cardiologist approval)
+3. Atorvastatin 80 mg by mouth at bedtime
+4. Metoprolol Succinate 50 mg by mouth once daily
+5. Lisinopril 10 mg by mouth once daily
+6. Metformin 500 mg by mouth twice daily (resume after 48 hours)
+7. Empagliflozin 10 mg by mouth once daily (NEW)
+8. Nitroglycerin 0.4 mg sublingual as needed for chest pain
+
+══════════════════════════════════════════════════════════════
+DISCHARGE INSTRUCTIONS:
+- Return to ER immediately if chest pain, shortness of breath, or palpitations
+- Do NOT drive for 1 week post-PCI
+- No heavy lifting (> 10 lbs) for 2 weeks
+- Low-sodium, heart-healthy diet
+- Cardiac rehabilitation program enrollment
+- Blood glucose monitoring at home — log and bring to follow-up
+
+FOLLOW UP:
+- Cardiology: 1 week (Dr. Smith, fictional)
+- Endocrinology: 2 weeks
+- Primary Care: 4 weeks
+- Repeat ECG and echocardiogram: 6 weeks
+
+══════════════════════════════════════════════════════════════
+CONDITION AT DISCHARGE: Stable
+DISPOSITION: Home with outpatient follow-up
+
+─────────────────────────────────────────────────────────────
+⚠️  SYNTHETIC PATIENT — FOR EDUCATIONAL USE ONLY
+This document contains no real patient information.
+Generated for portfolio/demonstration purposes.
+─────────────────────────────────────────────────────────────

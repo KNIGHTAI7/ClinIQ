@@ -1,0 +1,98 @@
+DISCHARGE SUMMARY — SYNTHETIC TEST PATIENT
+==========================================
+Patient: Test Patient A | Age: 62 | Gender: Female
+MRN: TEST-TXT-001 | Admitted: 2024-02-10 | Discharged: 2024-02-14
+
+CHIEF COMPLAINT:
+62-year-old female with sudden onset severe headache, dizziness, and
+left-sided weakness for 3 hours.
+
+HISTORY OF PRESENT ILLNESS:
+Patient is a 62-year-old female with past medical history of hypertension,
+atrial fibrillation, and type 2 diabetes mellitus. She presented to the
+emergency department with sudden onset of the worst headache of her life,
+associated with dizziness, nausea, vomiting, and left-sided arm and leg
+weakness. Blood pressure 188/112 mmHg, heart rate 94 bpm, respiratory
+rate 16 rpm, oxygen saturation 97% on room air, temperature 98.8°F.
+Glasgow Coma Scale score was 14.
+
+ALLERGIES: Warfarin (bleeding complications), Codeine (nausea)
+
+PAST MEDICAL HISTORY:
+1. Hypertension — on Amlodipine and Lisinopril
+2. Atrial fibrillation — on Apixaban
+3. Type 2 diabetes mellitus — on Metformin
+4. Hyperlipidemia — on Atorvastatin
+
+MEDICATIONS ON ADMISSION:
+1. Amlodipine 10 mg by mouth once daily
+2. Lisinopril 20 mg by mouth once daily
+3. Apixaban 5 mg by mouth twice daily
+4. Metformin 1000 mg by mouth twice daily
+5. Atorvastatin 40 mg by mouth at bedtime
+
+LABORATORY RESULTS:
+WBC 9.2 K/uL — normal. Hemoglobin 12.8 g/dL — mildly low.
+Platelet count 198 K/uL — normal. INR 1.1 — normal.
+Sodium 138 mEq/L, Potassium 4.0 mEq/L, Creatinine 0.9 mg/dL — normal.
+HbA1c 7.8% — suboptimally controlled diabetes. Glucose 186 mg/dL.
+LDL 118 mg/dL — mildly elevated. TSH 2.4 — normal.
+
+IMAGING:
+CT Head without contrast: No hemorrhage. No midline shift.
+MRI Brain with DWI: Acute ischemic infarct right MCA territory,
+approximately 2.3 cm. Right internal carotid artery stenosis 70%.
+
+ASSESSMENT AND PLAN:
+1. Acute Ischemic Stroke (Right MCA Territory)
+   ICD-10: I63.9
+   - IV tPA administered within 3.5 hours of symptom onset
+   - Aspirin 325 mg once then 81 mg daily for stroke prevention
+   - Statin therapy continued — Atorvastatin increased to 80 mg daily
+   - Blood pressure target < 140/90 mmHg post-thrombolysis
+   - Neurology consult for ongoing management
+   - Carotid endarterectomy discussed for right ICA stenosis
+
+2. Hypertension — Acute Management
+   ICD-10: I10
+   - Hold Amlodipine and Lisinopril acutely
+   - Nicardipine drip for blood pressure control
+   - Resume oral antihypertensives at discharge
+
+3. Atrial Fibrillation — Anticoagulation
+   ICD-10: I48.91
+   - Hold Apixaban for 48 hours post-tPA
+   - Resume Apixaban 5 mg twice daily — CHA2DS2-VASc score 5
+
+4. Type 2 Diabetes Mellitus — Hyperglycemia
+   ICD-10: E11.65
+   - Hold Metformin during admission
+   - Insulin sliding scale for glucose control target 140–180 mg/dL
+   - Resume Metformin at discharge, add Empagliflozin 10 mg daily
+
+5. Hyperlipidemia
+   ICD-10: E78.5
+   - Atorvastatin increased to 80 mg for high-intensity statin therapy
+
+DISCHARGE MEDICATIONS:
+1. Aspirin 81 mg by mouth once daily
+2. Atorvastatin 80 mg by mouth at bedtime
+3. Apixaban 5 mg by mouth twice daily
+4. Amlodipine 10 mg by mouth once daily
+5. Lisinopril 20 mg by mouth once daily
+6. Metformin 1000 mg by mouth twice daily
+7. Empagliflozin 10 mg by mouth once daily (NEW)
+
+FOLLOW UP:
+- Neurology clinic: 1 week
+- Primary Care: 2 weeks
+- Vascular Surgery (carotid): 3 weeks
+- Repeat MRI brain: 6 weeks
+
+CONDITION AT DISCHARGE: Stable, mild residual left arm weakness
+DISPOSITION: Acute rehabilitation facility
+
+==========================================
+SYNTHETIC PATIENT — FOR TESTING PURPOSES ONLY
+No real patient data. Educational use only.
+==========================================
