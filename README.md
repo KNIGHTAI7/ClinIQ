@@ -1,5 +1,5 @@
 #  🧬 ClinIQ
-# 🏥 Medical Report Summarization & Information Extraction
+#  Medical Report Summarization & Information Extraction
 
 > An end-to-end NLP pipeline that automatically summarizes medical reports,
 > extracts clinical entities, maps ICD-10 codes, and generates structured clinical notes.
@@ -76,23 +76,6 @@ pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/e
 pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_ner_bc5cdr_md-0.5.3.tar.gz
 ```
 
-### Step 4 — Download NLTK data
-```python
-import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('averaged_perceptron_tagger')
-```
-
-### Step 5 — Run tests to verify setup
-```bash
-python -m pytest tests/ -v
-```
-
-### Step 6 — Launch Streamlit app
-```bash
-streamlit run streamlit_app/app.py
-```
 
 ---
 
@@ -125,12 +108,3 @@ This tool is for **educational and portfolio purposes only**.
 - Do not use with real Protected Health Information (PHI)
 
 ---
-
-## 🚀 Deployment
-
-```bash
-# Deploy to Streamlit Cloud
-# 1. Push to GitHub
-# 2. Go to share.streamlit.io
-# 3. Connect your repo → set main file: streamlit_app/app.py
-```
