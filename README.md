@@ -44,38 +44,6 @@ medical_report_nlp/
 
 ---
 
-## ⚙️ Setup Instructions
-
-### Step 1 — Clone and create virtual environment
-```bash
-git clone <your-repo-url>
-cd medical_report_nlp
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# Mac / Linux
-source venv/bin/activate
-```
-
-### Step 2 — Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### Step 3 — Install scispaCy medical models
-```bash
-# Small model (faster, less accurate)
-pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_core_sci_sm-0.5.3.tar.gz
-
-# Large model (recommended for production)
-pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_core_sci_lg-0.5.3.tar.gz
-
-# BC5CDR model — specialized for disease & chemical NER
-pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.3/en_ner_bc5cdr_md-0.5.3.tar.gz
-```
-
 
 ---
 
