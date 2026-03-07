@@ -1,11 +1,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
-# ClinIQ — Streamlit Cloud Deployment Requirements
-# Slim build: rule-based NLP only, no PyTorch, no GPU deps
+# ClinIQ — Streamlit Cloud Requirements
+# ⚠️  NO spaCy / scispaCy — uses built-in regex NER (blis build error fix)
 # ─────────────────────────────────────────────────────────────────────────────
-
-# ── Core NLP (spaCy + scispaCy) ───────────────────────────────────────────────
-spacy==3.7.4
-scispacy==0.5.4
 
 # ── Text Processing ───────────────────────────────────────────────────────────
 nltk==3.8.1
@@ -13,7 +9,7 @@ nltk==3.8.1
 # ── PDF Handling ──────────────────────────────────────────────────────────────
 pdfplumber==0.10.3
 
-# ── Data & ML ─────────────────────────────────────────────────────────────────
+# ── Data & ML (scikit-learn for ICD-10 TF-IDF mapping) ───────────────────────
 pandas==2.2.1
 numpy==1.26.4
 scikit-learn==1.4.1

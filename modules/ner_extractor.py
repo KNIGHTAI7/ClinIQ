@@ -212,12 +212,18 @@ class MedicalNERExtractor:
             self.nlp = spacy.load("en_core_web_sm")
             self.model_name = "spaCy English (fallback)"
             logger.warning(f"⚠️  Using fallback model: {self.model_name}")
-            logger.info("💡 Install scispaCy models for much better medical NER")
             return
         except OSError:
-            logger.error("❌ No spaCy models available. Run: python -m spacy download en_core_web_sm")
+            logger.warning("⚠️  en_core_web_sm not found")
+        except ImportError:
+            logger.warning("⚠️  spaCy not installed")
 
-        # Attempt 5: HuggingFace BioBERT (no spaCy needed)
+        # Attempt 5: Pure regex — no spaCy at all (Streamlit Cloud safe)
+        self.nlp = None
+        self.model_name = "Rule-Based Regex NER (Cloud Mode)"
+        logger.warning("⚠️  Running in regex-only mode — no spaCy model loaded")
+
+        # Attempt 6: HuggingFace BioBERT (no spaCy needed)
         if self.use_transformer:
             self._load_transformer()
 
