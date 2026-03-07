@@ -1,28 +1,26 @@
-spacy>=3.5.0,<3.8.0
-scispacy==0.5.3
-transformers>=4.30.0,<4.39.0
-torch>=1.13.0,<2.3.0
-datasets>=2.12.0
-tokenizers>=0.13.0
-accelerate>=0.20.0
-sentencepiece>=0.1.99
-nltk>=3.8.0
-regex>=2023.0.0
-beautifulsoup4>=4.12.0
-pdfplumber>=0.9.0
-PyMuPDF>=1.21.0
-faiss-cpu>=1.7.3
-sentence-transformers>=2.2.0
-pandas>=1.5.0
-numpy>=1.23.0
-scikit-learn>=1.1.0
-matplotlib>=3.6.0
-plotly>=5.13.0
-streamlit>=1.28.0
-st-annotated-text>=4.0.0
-python-dotenv>=1.0.0
-tqdm>=4.64.0
-loguru>=0.7.0
-pydantic>=2.0.0
-reportlab>=3.6.0
-openpyxl>=3.0.0
+# ─────────────────────────────────────────────────────────────────────────────
+# ClinIQ — Streamlit Cloud Deployment Requirements
+# Slim build: rule-based NLP only, no PyTorch, no GPU deps
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Core NLP (spaCy + scispaCy) ───────────────────────────────────────────────
+spacy==3.7.4
+scispacy==0.5.4
+
+# ── Text Processing ───────────────────────────────────────────────────────────
+nltk==3.8.1
+
+# ── PDF Handling ──────────────────────────────────────────────────────────────
+pdfplumber==0.10.3
+
+# ── Data & ML ─────────────────────────────────────────────────────────────────
+pandas==2.2.1
+numpy==1.26.4
+scikit-learn==1.4.1
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+streamlit==1.32.2
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+loguru==0.7.2
