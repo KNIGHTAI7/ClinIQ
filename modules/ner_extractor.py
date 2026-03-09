@@ -18,6 +18,13 @@
 
 import re
 import sys
+
+# Check spaCy availability once at module load — avoids ModuleNotFoundError crash
+try:
+    import spacy as _spacy_check
+    SPACY_AVAILABLE = True
+except ImportError:
+    SPACY_AVAILABLE = False
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from dataclasses import dataclass, field
@@ -176,6 +183,13 @@ class MedicalNERExtractor:
     def _load_model(self) -> None:
         """Load best available NLP model, falling back gracefully."""
 
+        # Skip all spaCy attempts if not installed (Streamlit Cloud safe)
+        if not SPACY_AVAILABLE:
+            self.nlp = None
+            self.model_name = "Rule-Based Regex NER (Cloud Mode)"
+            logger.warning("⚠️  spaCy not installed — running in regex-only mode")
+            return
+
         # Attempt 1: scispaCy BC5CDR (disease + chemical NER)
         try:
             import spacy
@@ -183,7 +197,7 @@ class MedicalNERExtractor:
             self.model_name = "scispaCy BC5CDR (Disease + Drug NER)"
             logger.info(f"✅ Loaded: {self.model_name}")
             return
-        except OSError:
+        except (OSError, ImportError):
             logger.warning("⚠️  en_ner_bc5cdr_md not found")
 
         # Attempt 2: scispaCy large science model
@@ -193,7 +207,7 @@ class MedicalNERExtractor:
             self.model_name = "scispaCy Large Science Model"
             logger.info(f"✅ Loaded: {self.model_name}")
             return
-        except OSError:
+        except (OSError, ImportError):
             logger.warning("⚠️  en_core_sci_lg not found")
 
         # Attempt 3: scispaCy small science model
@@ -203,7 +217,7 @@ class MedicalNERExtractor:
             self.model_name = "scispaCy Small Science Model"
             logger.info(f"✅ Loaded: {self.model_name}")
             return
-        except OSError:
+        except (OSError, ImportError):
             logger.warning("⚠️  en_core_sci_sm not found")
 
         # Attempt 4: Standard spaCy (limited medical awareness)
@@ -213,7 +227,7 @@ class MedicalNERExtractor:
             self.model_name = "spaCy English (fallback)"
             logger.warning(f"⚠️  Using fallback model: {self.model_name}")
             return
-        except OSError:
+        except (OSError, ImportError):
             logger.warning("⚠️  en_core_web_sm not found")
         except ImportError:
             logger.warning("⚠️  spaCy not installed")
