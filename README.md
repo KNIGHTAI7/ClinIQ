@@ -4,8 +4,8 @@
 > An end-to-end NLP pipeline that automatically summarizes medical reports,
 > extracts clinical entities, maps ICD-10 codes, and generates structured clinical notes.
 
-🚀 Live Demo
-https://cliniq-6zblwugwjp2e7ngznbsqqi.streamlit.app/
+# 🚀 Live Demo
+> https://cliniq-6zblwugwjp2e7ngznbsqqi.streamlit.app/
 
 ---
 
